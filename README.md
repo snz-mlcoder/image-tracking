@@ -11,7 +11,9 @@ Each folder contains a self-contained mini-project with clean, readable code and
 | Folder | Title | Description |
 |--------|-------|-------------|
 | `01_frame_differencing` | Frame Differencing | Detect motion by comparing consecutive grayscale frames |
-| `02_
+| `02_colorspace_tracking | Color Detection Tracker |Track a specific color (e.g., blue) using the **HSV colorspace |
+| `03_interactive_object_tracker | Interactive Object Tracker | Track object in real-time using the **CAMShift algorithm |
+| `04_
 > More techniques will be added as the project evolves!
 
 
@@ -22,4 +24,4 @@ Clone the repo and install dependencies:
 ```bash
 git clone https://github.com/snz-mlcoder/image-tracking.git
 cd image-tracking
-pip install -r 01_frame_differencing/requirements.txt
+pip install -r requirements.txt
