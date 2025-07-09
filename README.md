@@ -14,6 +14,7 @@ Each folder contains a self-contained mini-project with clean, readable code and
 | `02_colorspace_tracking | Color Detection Tracker |Track a specific color (e.g., blue) using the **HSV colorspace |
 | `03_interactive_object_tracker | Interactive Object Tracker | Track object in real-time using the **CAMShift algorithm |
 | `04_feature_based_tracking`   | Feature-Based Tracking      | Track motion of feature points using Lucas-Kanade Optical Flow              |
+| `05_background_subtraction`  | Background Subtraction       | Detect moving objects by subtracting background using MOG (Mixture of Gaussians) |
 
 > More techniques will be added as the project evolves!
 
